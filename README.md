@@ -1,4 +1,24 @@
-# NODE MUSICS - CHECKPOINT 3
+# EXPRESS MUSIC
+
+This public repository is a copy of my branch in the private repo https://github.com/WildCodeSchool/remote-fr-lemuriens-checkpoint-3/tree/cario_franck
+
+The goal of this project is the realization of an API back in Test Driven Development (<a href="https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443842-test-driven-development-tout-sur-le-developpement-pilote-par-le-test/">TDD</a>) using Express
+- - -
+# TO SEE THIS PROJECT IN ACTION LOCALLY :
+
+- git clone git@github.com:Tadkozh/ExpressMusic.git
+- **npm install**
+
+- Create the DB from the *music.sql* file in the *db* folder
+- Link the back to the DB : duplicate *.env.sample* to *.env* and replace with your data
+
+- **npm start** if you want to test things with Postman or equivalent
+
+- **npm test** if you want to see TDD in action
+
+- - -
+
+# Subject of the checkpoint :fire:
 
 ## Disclaimer
 
@@ -10,32 +30,7 @@ The checkpoint is quite consequent, it's no big deal if you don't do everything 
 
 Before starting anything technical, your first mission is to clone this project, then create a branch with your lastname and firstname like so : `lastname_firstname`
 
-## :one: Step[1] - Database modeling | 20 min
-
-We want to build a website that allows users to discover and share cooking recipes. Your mission here is to provide a **logical data model** that meets the following constraints for the application :
-
-- Users must be able to identify themselves on the application with a username and password.
-- Several recipes can exist for a specific dish. Each dish is defined by his name and his type (starter, main course or dessert)
-- Each recipe is defined by : a title, an author, a date of creation, a list of ingredients and an ordered list of steps. A recipe is always related to a dish.
-- For each recipe, we should be able to find the steps of the recipe as well as the order in which they need to be done.
-- For a given recipe, for each ingredient we should be able to find the quantity and the unit.
-- Finally, each user must be able to add a recipe to his favorites.
-
-### To properly model your database :
-
-- Start by identifying **entities** and defining their **relationships** (with cardinalities) through a **conceptual data model**. Use paper/pencil to draft this first model.
-- On the basis of the previous model, design the **logical data model**
-  by adding attributes, foreign keys and/or junction tables.
-
-You can use the tool of your choice to produce the database model :
-
-- ✏️ Paper and pencil (my recommendation)
-
-- 🛠️ any diagram drawing applications like [Workbench](https://www.mysql.com/fr/products/workbench/), [Draw.io](https://app.diagrams.net/), [Google Drawings](https://chrome.google.com/webstore/detail/google-drawings/mkaakpdehdafacodkgkpghoibnmamcme/related?hl=fr)...
-
-Once you're satisfied with your data model, take a picture, a screenshot or export as an image and commit it to your branch.
-
-## :two: Step[2] - NodeJS / Express | 3 hours
+## :one: Step[1] - NodeJS / Express | 3 hours
 
 ### Getting started :point_down:
 
@@ -119,14 +114,8 @@ _Remember: for the tests to work properly, you need an `album` with id `1` and a
 
 ---
 
-## :three: Step[3] - Quiz | 10 min
-
-Your instructor will provide you the quiz link. You will need to login with Github in order to access it.  
-Once you have validated it, you can check your answers on your `profile` page :
-
 ## It's done ! Congrats !
 
 You can now chill :beers:
 
-![](https://media.giphy.com/media/l0Iyl55kTeh71nTXy/giphy.gif)  
-![](https://media.giphy.com/media/pHYaWbspekVsTKRFQT/giphy.gif)
+![](https://media.giphy.com/media/l0Iyl55kTeh71nTXy/giphy.gif) 
