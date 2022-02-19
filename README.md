@@ -24,8 +24,6 @@ The goal of this project is the realization of an API back in Test Driven Develo
 
 The checkpoint is quite consequent, it's no big deal if you don't do everything before the deadline. Do your best, and most importantly HAVE FUN 😃
 
-# The checkpoint itself 🔥
-
 ## :zero: Setup | 30 sec
 
 Before starting anything technical, your first mission is to clone this project, then create a branch with your lastname and firstname like so : `lastname_firstname`

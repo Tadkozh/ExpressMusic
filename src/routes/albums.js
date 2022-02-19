@@ -7,6 +7,8 @@ const {
   deleteAlbum,
 } = require('../models/albums');
 
+const tracksModel = require('../models/tracks');
+
 albumsRouter.get('/', (req, res) => {
   findAllAlbums().then(([album]) => {
     res.json(album);
@@ -20,6 +22,12 @@ albumsRouter.get('/:id', async (req, res) => {
   } else {
     res.status(404).json();
   }
+});
+
+//As a user, I need to be able to retrieve the tracks list of one album
+albumsRouter.get('/:id/tracks', async (req, res) => {
+  const [tracks] = await tracksModel.findOneByAlbum(req.params.id);
+  res.json(tracks);
 });
 
 albumsRouter.post('/', async (req, res) => {

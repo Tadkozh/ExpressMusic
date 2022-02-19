@@ -19,10 +19,17 @@ const updateTrack = (object, id) =>
 const deleteTrack = (id) =>
   connection.promise().query('DELETE FROM track WHERE id = ?', [id]);
 
+//As a user, I need to be able to retrieve the tracks list of one album
+const findOneByAlbum = (albumId) =>
+  connection
+    .promise()
+    .query(`SELECT * FROM track WHERE id_album = ?`, [albumId]);
+
 module.exports = {
   findAllTracks,
   findOneTrackById,
   insertTrack,
   updateTrack,
   deleteTrack,
+  findOneByAlbum,
 };
