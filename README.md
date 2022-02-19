@@ -2,7 +2,7 @@
 
 This public repository is a copy of my branch in the private repo https://github.com/WildCodeSchool/remote-fr-lemuriens-checkpoint-3/tree/cario_franck
 
-The goal of this project is the realization of an API back in Test Driven Development (<a href="https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443842-test-driven-development-tout-sur-le-developpement-pilote-par-le-test/">TDD</a>) using Express
+The goal of this project was the realization of an API back in Test Driven Development (<a href="https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443842-test-driven-development-tout-sur-le-developpement-pilote-par-le-test/">TDD</a>) using Express. The tests were already there, I wrote the code to pass them all
 - - -
 # TO SEE THIS PROJECT IN ACTION LOCALLY :
 
@@ -14,8 +14,9 @@ The goal of this project is the realization of an API back in Test Driven Develo
 
 - **npm start** if you want to test things with Postman or equivalent
 
-- **npm test** if you want to see TDD in action
+- **npm test** if you want to see TDD in action :
 
+![](testJest.png)
 - - -
 
 # Subject of the checkpoint :fire:
