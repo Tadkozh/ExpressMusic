@@ -1,4 +1,4 @@
-# EXPRESS MUSIC Test ssh
+# EXPRESS MUSIC
 
 This public repository is a copy of my branch in the private repo https://github.com/WildCodeSchool/remote-fr-lemuriens-checkpoint-3/tree/cario_franck
 
