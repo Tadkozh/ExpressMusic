@@ -1,23 +1,26 @@
-# EXPRESS MUSIC
+# EXPRESS MUSIC Test ssh
 
 This public repository is a copy of my branch in the private repo https://github.com/WildCodeSchool/remote-fr-lemuriens-checkpoint-3/tree/cario_franck
 
 The goal of this project was the realization of an API back in Test Driven Development (<a href="https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443842-test-driven-development-tout-sur-le-developpement-pilote-par-le-test/">TDD</a>) using Express. The tests were already there, I wrote the code to pass them all
-- - -
+
+---
+
 # TO SEE THIS PROJECT IN ACTION LOCALLY :
 
 - git clone git@github.com:Tadkozh/ExpressMusic.git
 - **npm install**
 
-- Create the DB from the *music.sql* file in the *db* folder
-- Link the back to the DB : duplicate *.env.sample* to *.env* and replace with your data
+- Create the DB from the _music.sql_ file in the _db_ folder
+- Link the back to the DB : duplicate _.env.sample_ to _.env_ and replace with your data
 
 - **npm start** if you want to test things with Postman or equivalent
 
 - **npm test** if you want to see TDD in action :
 
 ![](testJest.png)
-- - -
+
+---
 
 # Subject of the checkpoint :fire:
 
@@ -117,4 +120,4 @@ _Remember: for the tests to work properly, you need an `album` with id `1` and a
 
 You can now chill :beers:
 
-![](https://media.giphy.com/media/l0Iyl55kTeh71nTXy/giphy.gif) 
+![](https://media.giphy.com/media/l0Iyl55kTeh71nTXy/giphy.gif)
